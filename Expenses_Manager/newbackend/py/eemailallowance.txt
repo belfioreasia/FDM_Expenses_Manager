@@ -1,0 +1,3 @@
+Hello,
+Notification that your allowance has been exceeded
+Please contact your line manager. Until then, no more expense claims can be accepted

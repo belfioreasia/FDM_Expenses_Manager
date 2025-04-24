@@ -1,0 +1,481 @@
+*{
+  font-family: 'Inter';
+}
+
+/* All buttons hover animation */
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+/* HomePage --------------------------------------------------------------------------------*/
+.HomePage{
+  width: 100vw;
+}
+
+.HomePage .bottom{
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.HomePage .bottom .left{
+  width: 60vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.HomePage .left h5{
+    width: 100vw;
+    height: 10%;
+    padding-top: 6em;
+    padding-bottom: 0px;
+    padding-left: 3em;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+
+    color: #561DE2;
+    margin-bottom: 0em;
+}
+
+/*  table header: employee, claim, date */
+.HomePage .left .table {
+    width: 50vw;
+    margin-top: 0em;
+    margin-left: 4em;
+    background: #561DE2;
+    border-radius: 50px;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.HomePage .left .table tr{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+/*  pending claims list -------------------------*/
+.HomePage .claims {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.HomePage .claims table{
+    width: 50vw;
+    margin-left: 4em;
+    background: #561DE2;
+    border-radius: 50px;
+    padding: 0.5em;
+}
+
+.HomePage .claims table tr{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+/* RHS: buttons */
+.HomePage .actions{
+  height: 40vh;
+  padding-top: 30vh;
+  width: 25vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0px;
+  align-items: center;
+}
+
+.HomePage .actions button{
+  border: none;
+  border-collapse:collapse ;
+  border-radius: 60px;
+  background-color: #561DE2;
+  min-width: 20vw;
+
+  color: white;
+  padding: 6%;
+
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Login Page ---------------------------------------------------------------------------------*/
+.Login{
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 30px;
+
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.Login .left{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.Login .title {
+  padding: 0.7em;
+  border-radius: 50px;
+  width: 13em;
+  background: #561DE2;
+  text-align: center;
+  align-self: center;
+  font-weight: bolder;
+}
+
+.Login .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1.3em;
+  left: 1em;
+  margin-top: 1em;
+  width: 12em;
+  border-radius: 50px;
+  background: #561DE2;
+}
+
+.Login .input_mail, .input_pass {
+  width: 350px;
+  border-radius: 20px;
+  height: 2.2em;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.Login #input_pass {
+  padding-top: 0.3em;
+}
+
+.Login button {
+  border: none;
+  border-radius: 60px;
+  background-color: white;
+  align-items: center;
+
+  color: #561DE2;
+  height: auto;
+  width: 10em;
+  padding: 4%;
+  margin: 10%;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 4em;
+}
+
+.Login .right_side{
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #561DE2;
+  width: 50vw;
+
+}
+
+.Login .right_side img{
+  padding-top: 3em;
+  width: 30vw;
+}
+
+.Login .right_side .anim{
+  width: 100vw;
+  margin-left: 3em;
+}
+  
+/* ClaimsList --------------------------------------------------------------------------------*/
+.Claims{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.Claims .bottom{
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Claims .bottom h5{
+  width: 100vw;
+  height: 10%;
+  padding-top: 6em;
+  padding-bottom: 0px;
+  padding-left: 3em;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+
+  color: #561DE2;
+  margin-bottom: 0em;
+}
+
+.Claims .bottom .list{
+  width: 100vw;
+  background-color: #561DE2;
+  margin-top: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
+  border-radius: 50px;
+  padding: 0.5em;
+}
+
+.Claims .bottom .table{
+  width: 100vw;
+  margin-top: 0em;
+  margin-left: 4em;
+  margin-right: 4em;
+  background: #561DE2;
+  border-radius: 50px;
+  padding: 0.5em;
+  margin-bottom: 2em;
+}
+
+.Claims .bottom .table tr{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+}
+
+.Claims .bottom .list {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.Claims .bottom .list table{
+  width: 100%;
+  margin: 0.3%;
+  background: #561DE2;
+  border-radius: 50px;
+  padding: 0.5em;
+}
+
+.Claims .bottom .list table tr{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+}
+
+/* Employee List --------------------------------------------------------------------------------*/
+.Emps{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.Emps .bottom{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Emps .bottom h5{
+  width: 100vw;
+  height: 10%;
+  padding-top: 6em;
+  padding-bottom: 0px;
+  padding-left: 3em;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+
+  color: #561DE2;
+  margin-bottom: 0em;
+}
+
+.Emps .bottom .list{
+  width: 100vw;
+  background-color: #561DE2;
+  margin-top: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
+  border-radius: 50px;
+  padding: 0.5em;
+}
+
+.Emps .bottom .table{
+  width: 100vw;
+  margin-top: 0em;
+  margin-left: 4em;
+  margin-right: 4em;
+  background: #561DE2;
+  border-radius: 50px;
+  padding: 0.5em;
+  margin-bottom: 2em;
+}
+
+.Emps .bottom .table tr{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  
+}
+
+.Emps .bottom .list {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.Emps .bottom .list table{
+  width: 100%;
+  margin: 0.2em;
+  background: #561DE2;
+  border-radius: 50px;
+  align-content: center;
+  
+}
+
+.Emps .bottom .list table tr{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  width: 100vw;
+}
+
+
+.Emps .bottom .list .button{
+  border: none;
+  border-collapse:collapse ;
+  border-radius: 60px;
+  color: #561DE2;
+
+  background-color: white;
+  margin: 0%;
+  height: 4em;
+  width: 7em;
+  right: 0%;
+
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Change Info Page --------------------------------------------------------------------------------*/
+
+.ChangeInfo{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.ChangeInfo .middle{
+  border-radius: 60px;
+  color: #FFFFFF;
+  
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ChangeInfo .middle h3{
+  border-radius: 60px;
+  background-color: #561DE2; 
+  color: #FFFFFF;
+  text-align: center;
+  width: 40vw;
+  height: auto;
+  
+  font-size: 30px;
+  font-weight: 800;
+  padding: 0.3em;
+}
+
+.ChangeInfo .middle table{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 1em;
+
+  padding: 1.3em;
+  width: 50vw;
+
+  background-color: #561DE2; 
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-size: 2em;
+  text-align: center;
+}
+
+.ChangeInfo .middle table tr{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.ChangeInfo .nav {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ChangeInfo .nav button {
+  border: none;
+  border-radius: 2em;
+  background-color: #561DE2;
+  color: white;
+  width: 12em;
+  padding: 1em;
+  margin: 1em;
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,3 @@
+Hello,
+Notification that your reliance score is below acceptable levels
+HR has been notified. Until then, no more expense claims can be accepted

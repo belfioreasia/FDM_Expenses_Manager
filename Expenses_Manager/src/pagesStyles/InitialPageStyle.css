@@ -1,0 +1,124 @@
+
+  /* All buttons hover animation */
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+  .InitialPage{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+  }
+  
+  .InitialPage .top{
+    position: absolute;
+    background-color: #561DE2;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 8em;
+    align-items: center;
+    box-shadow: 0 12px 16px 0 rgba(28, 28, 28, 0.179), 0 17px 50px 0 rgba(0,0,0,0.19);
+  } 
+  
+  .InitialPage .top button{
+    border: none;
+    border-radius: 60px;
+    color: #561DE2;
+  
+    background-color: white;
+    padding: 1em;
+    margin-left: 3em;
+    margin-top: 1.9em;
+    font-weight: 600;
+    font-size: 18px;
+    width: 7em;
+  }
+  
+  .InitialPage .top img{
+    position: absolute;
+    float: right;
+    right: 3em;
+    height: 8em;
+    width: auto;
+  }
+
+  .InitialPage .bottom{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #561DE2;
+    bottom: 0px;
+  }
+
+
+  .InitialPage .bottom .left{
+    margin-top: 6em;
+    width: 50vw;
+  }
+
+  .InitialPage .bottom .right{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .InitialPage .bottom .right h1{
+    font-size: 70px;
+    font-weight: bolder;
+    height: auto;
+    color: white;
+    border-radius: 60px;
+    width: 10em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .InitialPage h3{
+   font-size: 30px;
+   font-weight: 900;
+   height: auto;
+   color: #561DE2;
+   background-color: white;
+   border-radius: 60px;
+   width: 20em;
+   padding: 0.3em;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .InitialPage footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    color: #561DE2;
+    background-color: white;
+    text-align: center;
+    height: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.3em;
+  }
+
+  .InitialPage footer p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 15em;
+  }
+
+

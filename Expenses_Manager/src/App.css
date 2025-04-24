@@ -1,0 +1,62 @@
+*{
+  font-family: 'Inter';
+}
+
+/* All buttons hover animation */
+.App button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+/*APP ------------------------------------------------------*/
+.App{
+  padding: 20px;
+}
+
+
+/*CLAIMS TABLE ------------------------------------------------------*/
+
+.claimBtn button{
+  display: flex;
+  justify-content: space-between;
+  align-content: center; 
+  border: none;
+  border-radius: 60px;
+
+  background-color: white;
+  color: black;
+  width: 95%;
+  padding: 1%;
+  margin: 2%;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.claimBtn p{
+  padding-left: 2%;
+  padding-right: 2%;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+/* EMPLOYEE -----------------------------------------------------*/
+
+.Employee {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Employee p{
+  color:white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 1em;
+  align-self:left;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/* ProcessCLaim -----------------------------------------------------*/

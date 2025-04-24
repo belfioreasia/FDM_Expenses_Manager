@@ -1,0 +1,103 @@
+.PersonalInfo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    font-family: 'Inter';
+}
+
+.PersonalInfo .header {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    background: #561DE2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12em;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.PersonalInfo .header h4 {
+    color: white;
+    margin: 0em 0em 0em 1em;
+    padding: 1em 0em 0.5em 1em;
+}
+
+.PersonalInfo .header .right ,
+.PersonalInfo .header .left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-content: baseline;
+    width: 50%;
+}
+.PersonalInfo .header table {
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 1em;
+    margin: 0em 1em 1em 1em;
+    padding: 0.5em;
+    width: auto;
+}
+
+.PersonalInfo table tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.PersonalInfo tr td {
+    padding: 0.5em;
+}
+
+.PersonalInfo .description {
+    color: #561DE2;
+}
+
+.PersonalInfo .button {
+    border: none;
+    background: transparent;
+    color: #561DE2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.PersonalInfo .button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.PersonalInfo .view {
+    display: flex;
+    justify-content: center;
+}
+
+.PersonalInfo .nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.PersonalInfo .nav button {
+    border: none;
+    border-radius: 2em;
+    background-color: #561DE2;
+    color: white;
+    width: 15em;
+    padding: 1em;
+    margin: 1em;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
